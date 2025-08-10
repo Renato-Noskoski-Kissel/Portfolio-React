@@ -1,0 +1,58 @@
+#contatoSection {
+    border-radius: 24px 24px 0 0;
+    background: #272727;
+    color: aliceblue;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+#tituloContato {
+    margin-bottom: 2rem;
+    font-size: 50px;
+}
+
+.entrada {
+    background-color: #f0f2f5;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    padding: 12px 15px;
+    font-size: 1rem;
+    color: #333;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.entrada::placeholder {
+    color: #999;
+}
+
+.entrada:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+}
+
+.botao {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top: 2.5rem;
+    padding: 12px 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    width: 30%;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0 4px 10px rgba(0, 123, 255, 0.2);
+}
+
+.botao:hover {
+    background-color: #0056b3;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0, 123, 255, 0.3);
+}
+
+.botao:active {
+    transform: translateY(0);
+    box-shadow: 0 4px 10px rgba(0, 123, 255, 0.2);
+}

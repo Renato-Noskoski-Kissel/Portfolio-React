@@ -1,0 +1,69 @@
+.projetoImg {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+#rowProject {
+    padding: 40px;
+    padding-bottom: 90px;
+}
+
+#tituloProjetos {
+    color: #FD853A;
+    font-family: Lufga;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: -0.96px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.retanguloProjetos {
+    background: rgba(188, 181, 172, 0.248);
+    backdrop-filter: blur(5px);
+    border-radius: 16px;
+    padding: 20px;
+    margin-left: 20px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    box-sizing: border-box;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.retanguloProjetos:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.retanguloProjetos img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.retanguloProjetos h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #222;
+    margin-top: 15px;
+}
+
+.retanguloProjetos p span {
+    background: rgba(0, 0, 0, 0.05);
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    color: #555;
+    transition: background 0.2s ease;
+}
+
+.retanguloProjetos p span:hover {
+    background: rgba(0, 0, 0, 0.15);
+}

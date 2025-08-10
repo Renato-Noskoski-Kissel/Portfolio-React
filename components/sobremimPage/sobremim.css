@@ -1,0 +1,54 @@
+#sobremimSection {
+    border-radius: 50px;
+    background-color: #171717;
+    color: #FFF;
+}
+
+#sobremimSection h1 {
+    font-size: 70px;
+    display: flex;
+    padding-top: 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+}
+
+#imgSobreMim {
+    justify-content: center;
+    align-content: center;
+    box-shadow: 0 0 40px rgba(255, 243, 243, 0.3);
+    border-radius: 5px;
+}
+
+#textoSobreMim {
+    font-size: 18px;
+    padding: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+    padding-bottom: 70px;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+@media (max-width: 992px) {
+    #imgSobreMim {
+        display: none;
+    }
+
+    #textoSobreMim {
+        font-size: 16px;
+        padding-left: 80px;
+        padding-right: 80px;
+        padding-bottom: 70px;
+        line-height: 18px;
+    }
+}
+
+@media (max-width: 600px) {
+    #textoSobreMim {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}

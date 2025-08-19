@@ -16,14 +16,14 @@ const acessoriosProjetos = [
     {
         imgUrl: projetoJavaScript,
         titulo: 'Portfolio Website',
-        link: "https://github.com/Renato-Noskoski-Kissel/Projeto-POO",
+        link: "https://github.com/Renato-Noskoski-Kissel/Portfolio-React",
         tags: ["JavaScript", "React", "UI/UX"],
         id: 1
     },
     {
         imgUrl: projetoAleatorio,
-        titulo: 'Desenvolvedor',
-        link: "https://github.com/Renato-Noskoski-Kissel/Projeto-POO",
+        titulo: 'Desenvolver',
+        link: "https://github.com/Renato-Noskoski-Kissel",
         tags: ["C++", "GitHub", "Programação"],
         id: 2
     }

@@ -1,12 +1,32 @@
-# React + Vite
+<img width="1892" height="911" alt="{513C3BC9-61D9-4708-9F61-0895B157B672}" src="https://github.com/user-attachments/assets/69f2c2b8-add2-4bdf-984d-c3051b472134" />
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esta é a minha Single Page Aplication, desenvolvida como projeto final da Empresa Júnior de Computação da UFSC, a Pixel. O objetivo é colocar em prática conceitos de React com Desing Responsivo e Componentização.
 
-Currently, two official plugins are available:
+As seguintes ferramentas e tecnologias foram utilizadas na construção do projeto:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* **Frontend:**
+    * [React.js](https://reactjs.org/)
+    * [Bootstrap 5](https://getbootstrap.com/)
+    * HTML5 & CSS3
+* **Serviços:**
+    * [EmailJS](https://www.emailjs.com/)
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Para rodar este projeto no seu ambiente local, siga os passos abaixo.
+
+1.  **Clone o repositório:**
+
+3.  **Instale as dependências:**
+    ```bash
+    npm install
+    ```
+
+4.  **Configure as variáveis de ambiente:**
+    * Crie um arquivo chamado `.env` na raiz do projeto.
+    * Copie o conteúdo do arquivo `.env.example` para dentro do seu novo `.env`.
+    * Preencha as chaves do EmailJS no arquivo `.env`.
+
+5.  **Inicie o projeto:**
+    ```bash
+    npm run dev
+    ```

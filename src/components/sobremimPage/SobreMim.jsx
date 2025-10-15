@@ -1,4 +1,4 @@
-import imgSobreMim from '../../src/assets/sobreMimImagem.png'
+import imgSobreMim from '../../assets/sobreMimImagem.png'
 import './sobremim.css'
 
 export default function SobreMim() {

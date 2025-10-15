@@ -1,6 +1,6 @@
-import imagemRenato from '../../src/assets/home_renato.jpeg'
-import linkedin from '../../src/assets/linkedin.png'
-import githubHome from '../../src/assets/githubHome.png'
+import imagemRenato from '../../assets/home_renato.jpeg'
+import linkedin from '../../assets/linkedin.png'
+import githubHome from '../../assets/githubHome.png'
 import './home.css'
 
 export default function Home() {

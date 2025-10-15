@@ -1,6 +1,6 @@
-import projetoPython from "../../src/assets/pythonPicture.png"
-import projetoJavaScript from "../../src/assets/javaScriptimg.png"
-import projetoAleatorio from "../../src/assets/aleatorioCode.png"
+import projetoPython from "../../assets/pythonPicture.png"
+import projetoJavaScript from "../../assets/javaScriptimg.png"
+import projetoAleatorio from "../../assets/aleatorioCode.png"
 import ProjetoItens from "./ProjetoItens"
 import './projetos.css'
 
